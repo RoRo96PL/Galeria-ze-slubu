@@ -1,0 +1,1 @@
+# Galeria-ze-slubu
