@@ -15,17 +15,31 @@ body {
     min-width: 100vw;
     overflow-x: hidden;
     padding: 64px;
+
+    /* Styl podstawowy */
+p {
+  font-size: 16px;
+}
+
+/* Media query dla urządzeń o szerokości mniejszej niż 600px */
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Media query dla urządzeń o szerokości mniejszej niż 400px */
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 12px;
+  }
+}
+
 }
 
 h1 {
     font-size: 80px;
     margin: 80px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 50px;
-    margin: 50px;
     text-align: center;
 }
 
